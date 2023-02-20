@@ -1,5 +1,5 @@
 import Navigo from "navigo";
-const router = new Navigo("/", { linksSelector: "a", hash: true });
+const router = new Navigo("/", {  hash: true });
 
 let effects = [];
 let currentEffectOrder = 0;

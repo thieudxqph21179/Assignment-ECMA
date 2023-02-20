@@ -3,6 +3,8 @@
 const footer = () => {
   return (
     `
+
+    
     <footer class="footer py-3">
     <div class="container">
         <p class="small mb-0 text-light">
@@ -10,6 +12,8 @@ const footer = () => {
         </p>
     </div>
     </footer>
+    
+    
     `
   )
 }

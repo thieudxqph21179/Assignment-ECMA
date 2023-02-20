@@ -1,19 +1,51 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "eyruiweuiry@gmail.com",
+      "password": "$2a$10$nP211F02oiCuvdYWkjeHFOS4Q5dkQVAX7laoEMMOmoyHjMZoQqpb2",
+      "name": "hihi",
+      "id": 1
     }
   ],
-  "comments": [
+  "profile": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "my": {
+        "title": "Tôi là ai ?",
+        "text1": "Một nhà thiết kế / nhà phát triển web ở Trái đất đáng yêu của chúng ta",
+        "text2": "Hãy để nỗi đau tự nó là gánh nặng, hãy để tinh hoa béo tốt được theo đuổi. Hãy để nó là gánh nặng.",
+        "cv": ""
+      },
+      "info": {
+        "title": "Thông tin cá nhân",
+        "date": "12/12/2003",
+        "email": "thieudxqph21179@fpt.edu.vn",
+        "phone": "0376732833",
+        "address": "Ngọc Trục-Đông Lỗ-Ứng Hòa-Hà Nội"
+      },
+      "skills": {
+        "title": "Chuyên môn của tôi",
+        "content1": "Thiết kế UX",
+        "text1": "Nghiên cứu và đánh giá về thói quen và cách mà khách hàng sử dụng",
+        "content2": "Phát triển web",
+        "text2": "duy trì/ cải thiện chất lượng website"
+      },
+      "id": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "resume": [
+    {
+      "id": 1,
+      "date": "10",
+      "subject": "Nhập môn lập trình (C)",
+      "content": "Nhập môn lập trình là một môn học lập trình đầu tiên mà tôi học, ban đầu cũng khá khó khăn nhưng tôi vẫn có thể qua môn",
+      "scores": "8.0"
+    },
+    {
+      "date": "12",
+      "subject": "js",
+      "content": "học xong quên hết sạch , kỳ 5 học lại từ đầu :(((",
+      "scores": "7.0",
+      "id": 2
+    }
+  ]
 }
