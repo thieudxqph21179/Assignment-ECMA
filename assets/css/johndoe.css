@@ -11506,8 +11506,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/ddijrqtc9/image/upload/v1676906398/ECMA/z2832058540563_e6c5cc80b62f4d67020ea1d90b8e3d1c_kimxaa.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/ddijrqtc9/image/upload/v1676906398/ECMA/z2832058540563_e6c5cc80b62f4d67020ea1d90b8e3d1c_kimxaa.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

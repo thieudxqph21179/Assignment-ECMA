@@ -5,6 +5,20 @@
       "password": "$2a$10$nP211F02oiCuvdYWkjeHFOS4Q5dkQVAX7laoEMMOmoyHjMZoQqpb2",
       "name": "hihi",
       "id": 1
+    },
+    {
+      "email": "thieu12345hn@gmail.com",
+      "password": "$2a$10$1mlPY2ZPjX7cVpUFvHNv0uuoLPlEcPvIUJixuXIv/Y9PCvZv3J6Wa",
+      "name": "Thieuz",
+      "vaiTro": "1",
+      "id": 2
+    },
+    {
+      "email": "thieudxqph21179@fpt.edu.vn",
+      "password": "$2a$10$tTZyt8EoRaMTJ63FNEWCP.O874uQS25aKCzyhKai7CF2XszfLBPAy",
+      "name": "Thieuz",
+      "vaiTro": "2",
+      "id": 3
     }
   ],
   "profile": [
@@ -46,6 +60,44 @@
       "content": "học xong quên hết sạch , kỳ 5 học lại từ đầu :(((",
       "scores": "7.0",
       "id": 2
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Website bán oto",
+      "img": [
+        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1676905131/ECMA/ve66w76bv75kdfc0j25q.png"
+      ],
+      "content": "Trang web bán oto thân thiện với người dùng ",
+      "time": "6",
+      "language": "HTML, CSS",
+      "demo": "https://proect2.vercel.app/",
+      "github": "https://github.com/thieudxqph21179/proect2",
+      "id": 1
+    },
+    {
+      "name": "Website bán đồ chơi",
+      "img": [
+        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1676905409/ECMA/brgk1qrap7aj4tnkeqcb.png"
+      ],
+      "content": "Trang web bán đồ chơi thân thiện với người dùng ",
+      "time": "24",
+      "language": "HTML, CSS, JS",
+      "demo": "https://project3-liart.vercel.app/",
+      "github": "https://github.com/thieudxqph21179/project3",
+      "id": 2
+    },
+    {
+      "name": "Website bán điện thoại",
+      "img": [
+        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1676905519/ECMA/baeurprvp09buxkdtl88.png"
+      ],
+      "content": "Trang web bán điện thoại thân thiện với người dùng ",
+      "time": "10",
+      "language": "HTML, CSS",
+      "demo": "https://project1-nine-steel.vercel.app/",
+      "github": "https://github.com/thieudxqph21179/project1",
+      "id": 3
     }
   ]
 }

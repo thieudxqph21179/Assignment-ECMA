@@ -43,7 +43,12 @@ const headerAdmin = () => {
               <p>Danh Sách Môn Học</p>
             </a>
           </li>
-          
+          <li class="nav-item">
+            <a  href="/#/admin/portfolio" data-navigo>
+              <i class="fa-layer-group"></i>
+              <p>Danh Sách Dự Án</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

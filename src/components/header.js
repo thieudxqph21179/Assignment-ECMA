@@ -15,7 +15,7 @@ const header = () => {
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Xin chào, Tôi là</h4>
-                <h1 class="header-title">Thiều Dương</h1>
+                <h1 class="header-title">Thiều</h1>
                 <h6 class="header-mono" >Lập trình viên Frond end</h6>
                 <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Hồ sơ</button>
             </div>
