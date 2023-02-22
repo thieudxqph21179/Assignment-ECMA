@@ -23,8 +23,8 @@ const header = () => {
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-4"style="float:right;">
-           ${user.id ? user.name  : ` <a style="width:150px" href="/signup" >Đăng ký</a>
-           <a style="width:150px" href="/signin" >Đăng nhập</a>`}
+           ${user.id ? user.name  : ` <a style="width:150px" href="/#/signup" >Đăng ký</a>
+           <a style="width:150px" href="/#/signin" >Đăng nhập</a>`}
            ${user.id ?  `<a style="padding-left:20px;" id="logout" >Đăng xuất</a>` : ""}
           
 
