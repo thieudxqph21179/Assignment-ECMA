@@ -35,11 +35,8 @@ const nav = () => {
                         <a href="#blog" class="nav-link">Tin tức</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="/signup" class="nav-link">Đăng ký</a>
-                    </li>
-                    <li class="nav-item last-item">
-                    <a href="/signin" class="nav-link">Đăng nhập</a>
-                    </li>
+                    <a href="#contact" class="nav-link">Góp ý</a>
+                </li>
                 </ul>
             </div>
         </div>

@@ -1,10 +1,10 @@
 import footer from "../components/footer"
 import header from "../components/header"
 import about from "./about"
-import blog from "./blog"
 import contact from "./contact"
 import portfolio from "./portfolio"
 import resume from "./resume"
+import posts from "./posts"
 
 
 const homePage = () => {
@@ -14,7 +14,7 @@ const homePage = () => {
     ${about()}
     ${resume()}
     ${portfolio()}
-    ${blog()}
+    ${posts()}
     ${contact()}
     ${footer()}
     `

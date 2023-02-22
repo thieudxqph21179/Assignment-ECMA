@@ -1,5 +1,5 @@
 import { signin } from "../api/user";
-import { router, useEffect } from "../lib";
+import { useEffect } from "../lib";
 const Signin = () => {
 
     useEffect(()=>{
@@ -24,9 +24,9 @@ const Signin = () => {
             localStorage.setItem("user", JSON.stringify(data.user));
             console.log(data.user);
             if (data.user.vaiTro == 1) {
-                router.navigate(`/admin`);
+                document.location.href =`/admin`;
             } else {
-                router.navigate(`/`);
+                document.location.href =`/`;
 
             }
         });
@@ -35,6 +35,12 @@ const Signin = () => {
     
   return (
    `
+    
+
+
+
+
+
    <div class="w-full pt-20 pb-60 h-full bg-[#9f9da7]">
             <div class="w-96 h-96 m-auto bg-white rounded-md text-center">
                 <div class="font-medium pt-5 text-[#2b3e51] text-3xl">Đăng nhập tài khoản</div>

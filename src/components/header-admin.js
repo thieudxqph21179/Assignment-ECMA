@@ -49,6 +49,12 @@ const headerAdmin = () => {
               <p>Danh Sách Dự Án</p>
             </a>
           </li>
+          <li class="nav-item">
+            <a  href="/#/admin/post" data-navigo>
+              <i class="fa-layer-group"></i>
+              <p>Danh Sách Bài Viết</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

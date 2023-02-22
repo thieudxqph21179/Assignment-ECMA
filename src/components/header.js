@@ -1,17 +1,35 @@
+import {  useEffect } from "../lib";
 import nav from "./nav"
-
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 const header = () => {
+  const user = JSON.parse(localStorage.getItem("user")) || "";
+  if(user){
+  useEffect(function(){
+  const logout = document.querySelector("#logout");
+  logout.addEventListener("click", () => {
+    toastr.success("Bạn đã đăng xuất thành công");
+      localStorage.removeItem("user");
+      setTimeout( document.location.href =`/`, 10000);
+  });
+  });
+}
+
+
   return (
     `
-    
+    <head>
+    </head>
     <header class="header">
         <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+            <ul class="social-icons pt-4"style="float:right;">
+           ${user.id ? user.name  : ` <a style="width:150px" href="/signup" >Đăng ký</a>
+           <a style="width:150px" href="/signin" >Đăng nhập</a>`}
+           ${user.id ?  `<a style="padding-left:20px;" id="logout" >Đăng xuất</a>` : ""}
+          
+
+         
+
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Xin chào, Tôi là</h4>

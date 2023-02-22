@@ -19,6 +19,13 @@
       "name": "Thieuz",
       "vaiTro": "2",
       "id": 3
+    },
+    {
+      "email": "hoangdong@fpt.edu.vn",
+      "password": "$2a$10$MTukXRz5tn.UgT9tvcO.ju6VBmAQK9c8wTW.rbGfFxSyyeZ365QgC",
+      "name": "thieuz",
+      "vaiTro": "2",
+      "id": 4
     }
   ],
   "profile": [
@@ -34,7 +41,10 @@
         "date": "12/12/2003",
         "email": "thieudxqph21179@fpt.edu.vn",
         "phone": "0376732833",
-        "address": "Ngọc Trục-Đông Lỗ-Ứng Hòa-Hà Nội"
+        "address": "Ngọc Trục-Đông Lỗ-Ứng Hòa-Hà Nội",
+        "facebook": "https://www.facebook.com/profile.php?id=100011811907090",
+        "github": "https://github.com/thieudxqph21179",
+        "instagram": "https://www.instagram.com/qwg_tiuz/"
       },
       "skills": {
         "title": "Chuyên môn của tôi",
@@ -98,6 +108,90 @@
       "demo": "https://project1-nine-steel.vercel.app/",
       "github": "https://github.com/thieudxqph21179/project1",
       "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "title": "Adidisicion sẽ được thực hiện",
+      "by": "Quản trị viên",
+      "content": "Điều rất quan trọng là khách hàng phải chú ý đến quá trình adipiscing. Nhưng họ không biết ai là người được chọn để thỏa mãn; Của những thứ do những lời buộc tội dễ dàng, và không bao giờ là sự linh hoạt của cách thức như một sự khác biệt.",
+      "text": "Không có gì ngăn cản nhu cầu! Nếu nó không xảy ra, nỗi đau sẽ dẫn đến một cái gì đó bị từ chối.",
+      "content2": "Tôi sẽ mở một cửa sổ lớn cho tất cả những thứ này! Tôi sẽ giải thích cho anh ta, những lợi thế, nỗi đau của sự tâng bốc bởi ham muốn những điều này, trừ khi chúng ta thực sự buộc tội những người khen ngợi về những nỗi đau bị che mắt bởi những thú vui.",
+      "img": "https://res.cloudinary.com/ddijrqtc9/image/upload/v1676905409/ECMA/brgk1qrap7aj4tnkeqcb.png",
+      "id": 1
+    },
+    {
+      "id": 5,
+      "title": "Thiều Dương",
+      "text": "ádasdas",
+      "content": "ádasd",
+      "content2": "ádasdasd",
+      "img": [
+        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1677037163/ECMA/fk2r1rx5krk5wecoozrj.jpg"
+      ],
+      "by": "Quản Trị Viên"
+    }
+  ],
+  "contact": [
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "WEb đẹp quá",
+      "id": 1
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "sdfsd",
+      "id": 2
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "fghjfghfgh",
+      "id": 3
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "ssdfsdf",
+      "id": 4
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "adsfasda",
+      "id": 5
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "ádasd",
+      "id": 6
+    },
+    {
+      "name": "hihi",
+      "email": "hieuuchiha@gmail.com",
+      "message": "123",
+      "id": 7
+    },
+    {
+      "name": "ưqewqe",
+      "email": "qqqqqqqq@gmail.com",
+      "message": "qưewqe",
+      "id": 8
+    },
+    {
+      "name": "qqqqq",
+      "email": "qweqwe@gmail.com",
+      "message": "123123123",
+      "id": 9
+    },
+    {
+      "name": "Thieuz",
+      "email": "thieu12345hn@gmail.com",
+      "message": "WEb đẹp đấy bro\n",
+      "id": 10
     }
   ]
 }

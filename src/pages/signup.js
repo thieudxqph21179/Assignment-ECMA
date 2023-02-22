@@ -32,7 +32,7 @@ const Signup = () => {
    `
    <div class="w-full pt-20 pb-60 h-full bg-[#9f9da7]">
             <div class="w-96 h-96 m-auto bg-white rounded-md text-center">
-                <div class="font-medium pt-3 text-[#2b3e51] text-3xl">Đăng ký tài khoản</div>
+                <div class="title">Đăng ký tài khoản</div>
                 <form class="ml-6 my-10 form-add">
                 <div class="mb-3">
                     <input type="text" class="form-control w-80 h-14 ml-2" id="username" placeholder="Tên tài khoản">
