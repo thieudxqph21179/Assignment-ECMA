@@ -28,7 +28,7 @@ useEffect(function(){
     `
     ${headerAdmin()}
 
-    <div class="container" style="padding-top:100px">
+    <div class="container pt-5">
     <h1>Quản lý danh sách bài viết</h1>
     <table class="table table-bordered">
     <thead>

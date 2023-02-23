@@ -15,20 +15,7 @@ const portfolio = () => {
                 <h1 class="mb-5"><span class="text-danger">Dự án của tôi</h1>
                 <div class="portfolio">
 
-                    <div class="filters">
-                        <a href="#" data-filter=".new" class="active">
-                            New
-                        </a>
-                        <a href="#" data-filter=".advertising">
-                            Advertising
-                        </a>
-                        <a href="#" data-filter=".branding">
-                            Branding
-                        </a>
-                        <a href="#" data-filter=".web">
-                            Web
-                        </a>
-                    </div>
+                    
                     <div class="portfolio-container"> 
                     <div class="row">
                     ${portfolios.map((portfolio)=>{

@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "eyruiweuiry@gmail.com",
-      "password": "$2a$10$nP211F02oiCuvdYWkjeHFOS4Q5dkQVAX7laoEMMOmoyHjMZoQqpb2",
-      "name": "hihi",
-      "id": 1
-    },
-    {
       "email": "thieu12345hn@gmail.com",
       "password": "$2a$10$1mlPY2ZPjX7cVpUFvHNv0uuoLPlEcPvIUJixuXIv/Y9PCvZv3J6Wa",
       "name": "Thieuz",
@@ -26,6 +20,20 @@
       "name": "thieuz",
       "vaiTro": "2",
       "id": 4
+    },
+    {
+      "email": "qwertyuiopasdfghjklc3dc@gmail.com",
+      "password": "$2a$10$ZF3kdcGWZRjJRMSXI0RfiuzzQgub.XzM9Byb1on6gTpriFocJgUJe",
+      "name": "Thieuz",
+      "vaiTro": "2",
+      "id": 5
+    },
+    {
+      "email": "qwe@gmail.com",
+      "password": "$2a$10$ki/ef9JRqje0Jx92mtU1huIsTtdrP0OPxYF.z/FGBdNGvvWC2Iwie",
+      "name": "triều ",
+      "vaiTro": "2",
+      "id": 6
     }
   ],
   "profile": [
@@ -34,7 +42,7 @@
         "title": "Tôi là ai ?",
         "text1": "Một nhà thiết kế / nhà phát triển web ở Trái đất đáng yêu của chúng ta",
         "text2": "Hãy để nỗi đau tự nó là gánh nặng, hãy để tinh hoa béo tốt được theo đuổi. Hãy để nó là gánh nặng.",
-        "cv": ""
+        "cv": "https://www.topcv.vn/xem-cv/UVFTBQYBDQUDBwUNUlpcBABRWgEBUQYKBAQDVQ78cb"
       },
       "info": {
         "title": "Thông tin cá nhân",
@@ -58,18 +66,32 @@
   ],
   "resume": [
     {
-      "id": 1,
-      "date": "10",
-      "subject": "Nhập môn lập trình (C)",
-      "content": "Nhập môn lập trình là một môn học lập trình đầu tiên mà tôi học, ban đầu cũng khá khó khăn nhưng tôi vẫn có thể qua môn",
+      "id": 3,
+      "date": "12 Năm 2021",
+      "subject": "Nhập môn lập trình (C++)",
+      "content": "Đúng với tên gọi của nó, đây sẽ là môn học đưa bạn vào thế giới lập trình (thế giới mà giang hồ đồn sẽ toàn màu hồng, là vua các nghề, việc nhẹ, lương cao,... nhưng với tư cách là một người trong cuộc thì mình không chắc :v). Sau khi học xong môn học này bạn có thể tạo ra một số chương trình đơn giản, có nền tảng để tiếp tục học ở các môn tiếp theo.",
       "scores": "8.0"
     },
     {
-      "date": "12",
-      "subject": "js",
-      "content": "học xong quên hết sạch , kỳ 5 học lại từ đầu :(((",
+      "date": "2 Năm 2022",
+      "subject": "JavaScript",
+      "content": "JavaScript là ngôn ngữ lập trình được nhà phát triển sử dụng để tạo trang web tương tác. Từ làm mới bảng tin trên trang mạng xã hội đến hiển thị hình ảnh động và bản đồ tương tác, các chức năng của JavaScript có thể cải thiện trải nghiệm người dùng của trang web. Là ngôn ngữ kịch bản phía máy khách, JavaScript là một trong những công nghệ cốt lõi của World Wide Web",
       "scores": "7.0",
-      "id": 2
+      "id": 4
+    },
+    {
+      "date": "6 Năm 2022",
+      "subject": "PHP",
+      "content": "PHP là một ngôn ngữ lập trình kịch bản hay một loại mã lệnh chủ yếu được dùng để phát triển các ứng dụng viết cho máy chủ, mã nguồn mở, dùng cho mục đích tổng quát. Nó rất thích hợp với web và có thể dễ dàng nhúng vào trang HTML.",
+      "scores": "7.0",
+      "id": 5
+    },
+    {
+      "date": "12 Năm 2022",
+      "subject": "Dự án 1",
+      "content": "Website là nơi là một địa chỉ mà doanh nghiệp/ tổ chức/ người chủ sở hữu web sẽ có thể tự do sáng tạo nội dung trên web. Có thể nói web sẽ là bộ mặt thể hiện thông tin và sự chuyên nghiệp của doanh nghiệp đó.",
+      "scores": "6.0",
+      "id": 6
     }
   ],
   "portfolio": [
@@ -123,11 +145,11 @@
     {
       "id": 5,
       "title": "Thiều Dương",
-      "text": "ádasdas",
-      "content": "ádasd",
-      "content2": "ádasdasd",
+      "text": "Dương Xạ Quang Thiều",
+      "content": "Điều rất quan trọng là khách hàng phải chú ý đến quá trình adipiscing. Anh ta sẽ chạy trốn khỏi những ân xá này với lao động? Với nỗi đau đẩy lùi bạn, bạn thấy rắc rối, vì sinh ra với lòng căm thù và ham muốn, sự vuốt ve của cuộc sống mang lại một lỗi lầm lớn! Tôi sẽ mở nó, nó có thường cau mày không?",
+      "content2": "Điều rất quan trọng là khách hàng phải chú ý đến quá trình adipiscing. Anh ta sẽ chạy trốn khỏi những ân xá này với lao động? Với nỗi đau đẩy lùi bạn, bạn thấy rắc rối, vì sinh ra với lòng căm thù và ham muốn, sự vuốt ve của cuộc sống mang lại một lỗi lầm lớn! Tôi sẽ mở nó, nó có thường cau mày không?",
       "img": [
-        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1677037163/ECMA/fk2r1rx5krk5wecoozrj.jpg"
+        "https://res.cloudinary.com/ddijrqtc9/image/upload/v1677132719/ECMA/zzo0unznpztylugwdniq.jpg"
       ],
       "by": "Quản Trị Viên"
     }
@@ -138,18 +160,6 @@
       "email": "hieuuchiha@gmail.com",
       "message": "WEb đẹp quá",
       "id": 1
-    },
-    {
-      "name": "hihi",
-      "email": "hieuuchiha@gmail.com",
-      "message": "sdfsd",
-      "id": 2
-    },
-    {
-      "name": "hihi",
-      "email": "hieuuchiha@gmail.com",
-      "message": "fghjfghfgh",
-      "id": 3
     },
     {
       "name": "hihi",
@@ -192,6 +202,38 @@
       "email": "thieu12345hn@gmail.com",
       "message": "WEb đẹp đấy bro\n",
       "id": 10
+    }
+  ],
+  "header": [
+    {
+      "menu": "Trang Chủ",
+      "href": "#home",
+      "id": 1
+    },
+    {
+      "menu": "Tôi",
+      "href": "#about",
+      "id": 2
+    },
+    {
+      "menu": "Học tập",
+      "href": "#resume",
+      "id": 3
+    },
+    {
+      "menu": "Dự án",
+      "href": "#portfolio",
+      "id": 4
+    },
+    {
+      "menu": "Bài Viết",
+      "href": "#blog",
+      "id": 5
+    },
+    {
+      "menu": "Góp ý",
+      "href": "#contact",
+      "id": 6
     }
   ]
 }

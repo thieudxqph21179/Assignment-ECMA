@@ -6,8 +6,7 @@ const homeAdmin = () => {
   return (
     `
     ${headerAdmin()}
-
-    ${footerAdmin()}
+    Chào mừng bạn đã đến với trang admin
     `
   )
 }

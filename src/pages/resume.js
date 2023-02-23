@@ -12,7 +12,7 @@ const resume = () => {
     `
         <section class="section" id="resume">
             <div class="container">
-                <h2 class="mb-5"><span class="text-danger">Quá trình học tập của tôi</h2>
+                <h2 class="mb-5"><span class="text-danger">Một số môn mà tôi đã học tại Fpoly</h2>
                 <div class="row">
                 
                     <div class="col-md-6 col-lg-8">

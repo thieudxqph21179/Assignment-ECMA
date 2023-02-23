@@ -35,27 +35,29 @@ const Signin = () => {
     
   return (
    `
-    
-
-
-
-
-
-   <div class="w-full pt-20 pb-60 h-full bg-[#9f9da7]">
-            <div class="w-96 h-96 m-auto bg-white rounded-md text-center">
-                <div class="font-medium pt-5 text-[#2b3e51] text-3xl">Đăng nhập tài khoản</div>
-                <form class="ml-6 my-10 form-signin">
-                <div class="mb-3">
-                <input type="text" class="form-control w-80 h-14 ml-2" id="email" placeholder="Email">
-                </div>
-                <div class="mb-3">
-                <input type="text" class="form-control w-80 h-14 ml-2" id="password" placeholder="Mật khẩu">
-                </div>
-                
-                <button class="btn btn-primary bg-[#3ca9e2] w-80 h-14 mt-3 mr-5 font-medium text-xl">Đăng nhập</button>
-            </form>
-            </div>
-        </div>
+       <section class="login">
+           <div class="login_box">
+               <div class="left">
+                   <div class="top_link"><a href="/"><img src="https://drive.google.com/u/0/uc?id=16U__U5dJdaTfNGobB_OpwAJ73vM50rPV&export=download" alt="">Trở về trang chủ</a></div>
+                   <div class="contact">
+                       <form class="form-signin">
+                           <h3>Đăng Nhập</h3>
+                           <input id="email" type="text" placeholder="Email">
+                           <input id="password" type="text" placeholder="Mật khẩu">
+                           <button class="submit">Đăng Nhập</button>
+                       </form>
+                   </div>
+               </div>
+               <div class="right">
+                   <div class="right-text">
+                       <h2>Xin chào bro</h2>
+                       <h5>Chào mừng bro đến với trang của tui <br> nếu bro chưa có tài khoản thì hãy đăng ký đi <br> <a href="signup">Đăng ký</a></h5>
+                       
+                   </div>
+                   <div class="right-inductor"><img src="https://lh3.googleusercontent.com/fife/ABSRlIoGiXn2r0SBm7bjFHea6iCUOyY0N2SrvhNUT-orJfyGNRSMO2vfqar3R-xs5Z4xbeqYwrEMq2FXKGXm-l_H6QAlwCBk9uceKBfG-FjacfftM0WM_aoUC_oxRSXXYspQE3tCMHGvMBlb2K1NAdU6qWv3VAQAPdCo8VwTgdnyWv08CmeZ8hX_6Ty8FzetXYKnfXb0CTEFQOVF4p3R58LksVUd73FU6564OsrJt918LPEwqIPAPQ4dMgiH73sgLXnDndUDCdLSDHMSirr4uUaqbiWQq-X1SNdkh-3jzjhW4keeNt1TgQHSrzW3maYO3ryueQzYoMEhts8MP8HH5gs2NkCar9cr_guunglU7Zqaede4cLFhsCZWBLVHY4cKHgk8SzfH_0Rn3St2AQen9MaiT38L5QXsaq6zFMuGiT8M2Md50eS0JdRTdlWLJApbgAUqI3zltUXce-MaCrDtp_UiI6x3IR4fEZiCo0XDyoAesFjXZg9cIuSsLTiKkSAGzzledJU3crgSHjAIycQN2PH2_dBIa3ibAJLphqq6zLh0qiQn_dHh83ru2y7MgxRU85ithgjdIk3PgplREbW9_PLv5j9juYc1WXFNW9ML80UlTaC9D2rP3i80zESJJY56faKsA5GVCIFiUtc3EewSM_C0bkJSMiobIWiXFz7pMcadgZlweUdjBcjvaepHBe8wou0ZtDM9TKom0hs_nx_AKy0dnXGNWI1qftTjAg=w1920-h979-ft" alt=""></div>
+               </div>
+           </div>
+       </section>
    `
   )
 }
