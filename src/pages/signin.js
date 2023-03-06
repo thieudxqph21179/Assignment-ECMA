@@ -4,12 +4,8 @@ const Signin = () => {
 
     useEffect(()=>{
         const form =document.querySelector(".form-signin");
-
         const email = document.querySelector("#email");
         const password = document.querySelector("#password");
-
-
-
         if(form){
        
         form.addEventListener("submit", async(e)=>{
@@ -18,10 +14,9 @@ const Signin = () => {
             const formData= {  
                 email: email.value,
                 password: password.value
-            };
-            
+            };  
             const { data } = await signin(formData);
-            localStorage.setItem("user", JSON.stringify(data.user));
+            localStorage.setItem("user", JSON.stringify(data,user));
             console.log(data.user);
             if (data.user.vaiTro == 1) {
                 document.location.href =`/admin`;

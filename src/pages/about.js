@@ -18,7 +18,9 @@ const about = () => {
                     <span class="line mb-5"></span>
                     <h5 class="mb-3">${profile.my.text1}</h5>
                     <p class="mt-20">${profile.my.text2}</p>
-                   <i class="icon-down-circled2 "></i><a href="${profile.my.cv}">Hồ sơ của tôi</a>
+          
+                <a href="${profile.my.cv}" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i> Xem hồ sơ của tôi</a>
+
                 </div>
                 <div class="col-lg-4 about-card">
                     <h3 class="font-weight-light">${profile.info.title}</h3>

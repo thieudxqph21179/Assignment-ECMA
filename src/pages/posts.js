@@ -12,7 +12,7 @@ const posts = () => {
     
     <section class="section" id="blog">
     <div class="container">
-        <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+        <h2 class="mb-5">Bài <span class="text-danger">Viết</span></h2>
         <div class="row">
         ${Posts.map((Post)=>{
             return`

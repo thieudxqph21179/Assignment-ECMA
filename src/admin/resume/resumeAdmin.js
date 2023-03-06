@@ -46,7 +46,7 @@ useEffect(function(){
       <tr>
         <td>${resume.id}</td>
         <td>${resume.subject}</td>
-        <td>${resume.date}</td>
+        <td>${resume.date}</td>co
         <td>${resume.scores}</td>
 
         <td>
